@@ -24,7 +24,7 @@ jobs:
         run: ./gradlew assembleDebug --no-daemon
 
       - name: Upload APK
-        uses: actions/upload-artifact@v4
+        uses: actions/upload-artifact@v7
         with:
           name: Rachid-Music-Player-debug
           path: app/build/**/*.apk
